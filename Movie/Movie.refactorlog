@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="233c19d5-5aa3-466a-ac4d-370b3a6675b9" ChangeDateTime="03/31/2023 17:20:24">
+    <Property Name="ElementName" Value="[dbo].[Movies].[Data]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Realesed" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f977e05b-c6f7-466f-ae1a-e1f4fb0a2f75" ChangeDateTime="03/31/2023 17:20:35">
+    <Property Name="ElementName" Value="[dbo].[Movies].[Realesed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Released" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2442285-b5c0-4bea-934f-9150829f879e" ChangeDateTime="03/31/2023 17:26:30">
+    <Property Name="ElementName" Value="[dbo].[FK_Movies_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Movies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Genres]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="887245c3-075a-4f53-b4ad-baf60ac6e27b" ChangeDateTime="03/31/2023 17:33:07">
+    <Property Name="ElementName" Value="[dbo].[Genre].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Genre]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Genre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a79714fd-b6ad-42c6-8f47-a548cd9bcce6" ChangeDateTime="03/31/2023 17:49:17">
+    <Property Name="ElementName" Value="[dbo].[Movies].[Genre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Genre_" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62cb7a63-50a6-4576-8d98-e34bc71d702d" ChangeDateTime="03/31/2023 17:49:39">
+    <Property Name="ElementName" Value="[dbo].[Movies].[Genre_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Genre_FK" />
+  </Operation>
+</Operations>
